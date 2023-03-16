@@ -1,0 +1,7 @@
+AI ML Model formats
+
+TensorFlow: SavedModel format (.pb file extension) or Keras model format (.h5 file extension)
+PyTorch: .pt file extension
+ONNX: .onnx file extension
+Caffe: .caffemodel file extension
+Scikit-learn: .pkl file extension

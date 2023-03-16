@@ -1,0 +1,7 @@
+pip install transformers
+
+pip install torch
+
+pip install flask-cors
+
+dont forget to install and use CORS or else face error

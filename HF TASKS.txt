@@ -1,0 +1,61 @@
+HUGGINGFACE TASKS
+
+                             1'audio-classification'
+
+                             2. 'automatic-speech-recognition'
+
+                             3. 'conversational'
+
+,                            4. 'depth-estimation'
+
+,                            5. 'document-question-answering',
+                             
+                             6.'feature-extraction', 
+
+                              
+                             7.'fill-mask',
+ 
+                             8.'image-classification',
+ 
+                             9.'image-segmentation',
+ 
+                             10.'image-to-text', 
+
+                             11.'ner',
+ 
+                             12.'object-detection',
+
+                             13. 'question-answering',
+
+
+                            14. 'sentiment-analysis',
+
+
+                            15. 'summarization',
+ 
+                            16.'table-question-answering',
+
+                            17. 'text-classification', 
+
+                            18.'text-generation',
+
+                            19. 'text2text-generation',
+
+                            20. 'token-classification',
+
+                            21.'translation',
+ 
+                            22.'video-classification', 
+
+                            23. 'visual-question-answering',
+
+                            24. 'vqa', 
+
+                           25.'zero-shot-classification', 
+
+                           26.'zero-shot-image-classification',
+
+                           27. 'zero-shot-object-detection'
+
+                           28., 'translation_XX_to_YY']" 
+ 

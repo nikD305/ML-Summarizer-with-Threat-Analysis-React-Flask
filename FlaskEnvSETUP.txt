@@ -1,0 +1,49 @@
+Step 1: Create a folder and open it in visual studio code.
+
+Step 2: open a new terminal in VS code and run this command to create a virtual environment:  py -3 -m venv .venv
+
+Step 3: now run following command to activate virtual environment :  .venv\scripts\activate
+
+Step 4: now go to --view -- command palette -- type Select Python Interpreter, from the list --select the virtual environment in your project folder that starts with ./.venv or .\.venv:
+          Here intrepretor is where our pip imports are installed and we select the intreprator where we want to open, 
+so if import did work then do the pip install in powershell
+
+
+
+Step 5: Open a new terminal that will activate the newly created virtual environment, then 
+
+Step 6: run the following command in the terminal: 
+        python -m pip install --upgrade pip
+
+Step 7: Install Flask in the virtual environment-run following command -
+        python -m pip install flask
+
+
+
+
+
+ Step 1: create a new file with the name, app.py and save it. 
+ Step 2: Now we write the following lines of code in this file --
+    from flask import Flask
+    app = Flask(__name__) 
+  
+ @app.route("/")
+    def home():
+    return "Hello, Flask!"
+  
+ save the app.py file (Ctrl+S).
+  
+Step 3: Now Run the flask server by using a terminal with the command - 
+        python -m flask run
+
+which runs the Flask development server. The development server looks for app.py by default. 
+
+   note: If you see an error that the Flask module cannot be found,
+           then run the following command:  python -m pip install flask  
+                                  and restart VS Code once.
+     
+Step 4: Also, if you want to run the development server on a different IP address or port, use the host and port command-line arguments, as with --host=0.0.0.0 --port=80.     
+     
+Step 5: Run the app from the browser.      
+
+Step 6: Stop the app by using Ctrl+C in the terminal.
